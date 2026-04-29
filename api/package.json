@@ -1,13 +1,12 @@
-
-
 {
-  "scripts":{
-    "server":"nodemon index.js"
+  "scripts": {
+    "server": "nodemon index.js"
   },
   "dependencies": {
     "body-parser": "^2.2.2",
     "cors": "^2.8.6",
     "express": "^5.2.1",
-    "nodemon": "^3.1.14"
+    "nodemon": "^3.1.14",
+    "uuid": "^14.0.0"
   }
 }
