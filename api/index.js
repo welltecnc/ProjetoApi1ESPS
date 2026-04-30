@@ -5,7 +5,9 @@ const {v4: uuidv4} = require("uuid");
 const app= express();
 const Port = 5001;
 
-app.use(cors());
+app.use(cors({
+      origin:"projeto-api1-esps-weld.vercel.app/"
+}));
 
 app.use(express.json());
 

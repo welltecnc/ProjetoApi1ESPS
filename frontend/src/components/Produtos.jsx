@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-const API_URL = "http://localhost:5001/produtos";
+const API_URL = "projeto-api1-esps-weld.vercel.app/produtos";
 
 const Produtos = () => {
   const [produtos, setProdutos] = useState([]);
